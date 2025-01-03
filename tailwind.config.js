@@ -2,10 +2,10 @@
 module.exports = {
   content: ["*"],
   theme: {
+    screens: {
+      xsm: "500px",
+    },
     extend: {
-      screens: {
-        xsm: "500px",
-      },
       spacing: {
         13: "3.25rem",
       },
