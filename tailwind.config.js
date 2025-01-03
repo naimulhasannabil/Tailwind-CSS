@@ -3,6 +3,9 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
+      screens: {
+        xsm: "500px",
+      },
       spacing: {
         13: "3.25rem",
       },
